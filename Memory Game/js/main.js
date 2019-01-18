@@ -32,7 +32,7 @@ var cardsInPlay = [];
           alert("You found a match!");
 
       } else {
-          alert("Sorry, try again");
+          //alert("Sorry, try again");
         };
 
   };
@@ -45,12 +45,12 @@ function flipCard() {
   //console.log("User flipped" + cards[cardId].cardImage);
   //console.log("User flipped" + cards[cardId].suit);
     this.setAttribute('src', cards[cardId].cardImage);
-      if (cardsInPlay [0] === cardsInPlay [2]) {
-        alert("you found the match!")
-   }  else {
-       alert("Sorry, try again")
-   };
-}
+    if (cardsInPlay.length === 2){
+        checkForMatch();
+   }  //else {
+       //alert("Sorry, try again")
+   //};
+};
 
 console.log(cardsInPlay);
 
