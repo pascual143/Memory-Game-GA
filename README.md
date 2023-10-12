@@ -1,5 +1,3 @@
-# wdi-fundamentals-memorygame
-
 # MEMORY GAME
 ## _The biggest Game ever_
 
